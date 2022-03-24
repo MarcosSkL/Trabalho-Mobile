@@ -9,4 +9,4 @@ Já na parte de back-end foi utilizado a ferramenta do **Google** `firebase`
 
 ---
 
-Mas isso e cada um por si nesse caraio
+
