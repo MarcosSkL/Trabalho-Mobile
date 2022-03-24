@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<htm lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Corte no App</title>
-    <link  rel ="icon" href="WhatsApp Image 2022-03-20 at 19.57.13.jpeg " type="image/x-icon">
+    <link  rel ="icon" href="imagens/WhatsApp Image 2022-03-20 at 19.57.13.jpeg  " type="image/x-icon">
     <link href="style.css" rel="stylesheet" type="text/css" />
       <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -15,14 +15,14 @@
         <ion-menu side="start" content-id="main-content">
             <ion-header>
               <ion-toolbar>
-                  <ion-title>Menu</ion-title>
+                  <ion-title>Usuário</ion-title>
               </ion-toolbar>
             </ion-header>
             <ion-content>
               <ion-list>
-                  <ion-item>Menu Item 1</ion-item>
-                  <ion-item>Menu Item 2</ion-item>
-                  <ion-item>Menu Item 3</ion-item>
+                  <ion-item><ion-icon name="person-circle-outline"></ion-icon><p>Usuário</p></ion-item>
+                  <ion-item><ion-icon name="star-outline"></ion-icon><p>Favoritos</p></ion-item>
+                  <ion-item><ion-icon name="settings-outline"></ion-icon><p>Configurações</p></ion-item>
               </ion-list>
             </ion-content> 
         </ion-menu>
@@ -36,10 +36,10 @@
                 <ion-item lines="none" color="primaria">
                     <h1>Cor Primária</h1>
                 </ion-item>
-                <ion-item lines="none" color="secundaria">
+                <ion-item lines="none" color="secundaria ">
                     <h1>Cor Secundária</h1>
                 </ion-item>      
-                <ion-item lines="none" color="success">
+                <ion-item lines="none" color="terciaria">
                     <h1>Cor Terciária</h1>
                 </ion-item>
               </ion-col>
@@ -55,17 +55,17 @@
             <ion-tab tab="voltar">
                 <h1>Voltar</h1>
             </ion-tab>
-            <ion-tab-bar slot="bottom" color="primaria">
+            <ion-tab-bar slot="bottom" color="primaria" mode="md">
                 <ion-tab-button tab="home">
-                    <ion-label>Home</ion-label>
+                    <ion-label></ion-label>
                  <ion-icon name="home"></ion-icon>
                 </ion-tab-button>
                 <ion-tab-button tab="settings">
-                    <ion-label>Configurações</ion-label>
+                    <ion-label></ion-label>
                 <ion-icon name="settings"></ion-icon>
                 </ion-tab-button>
                 <ion-tab-button tab="voltar">
-                    <ion-label>Voltar</ion-label>
+                    <ion-label></ion-label>
                     <ion-icon name="arrow-back-circle"></ion-icon>
                 </ion-tab-button>
             </ion-tab-bar>
