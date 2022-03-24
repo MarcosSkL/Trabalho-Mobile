@@ -1,16 +1,12 @@
-# Trabalho Mobile
+# Corte  no App
 
-Trabalho Mobile Faculdade
+!(scr\imagens\WhatsApp Image 2022-03-20 at 19.57.13.jpeg)
 
-Fase 01 - Protótipo (Figma) 3,0 pontos
+O **Corte no App** é um aplicativo de busca focado em barbearias.
+Nós utilizamos a tecnologia `ionic framework` juntamente com `react` para o front-end do projeto.  
 
-- Scrum, Kanban
-- Gitgub
+Já na parte de back-end foi utilizado a ferramenta do **Google** `firebase`
 
-Fase 02 - construção Frontend 3,0 pontos
+---
 
-- React Native
-
-Fase 03 - Construção Backend 4,0 pontos
-
-- Firebase
+Mas isso e cada um por si nesse caraio
