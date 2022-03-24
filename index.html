@@ -27,7 +27,17 @@
         </ion-menu>
         <div class="ion-page" id="main-content">
         </div>
-        <ion-menu-controller></ion-menu-controller>        
+        <ion-menu-controller></ion-menu-controller>
+        <ion-grid fixed="true" style="background-color: #f0f8ff">
+            <ion-row class="ion-align-items-center" 
+              style="height: 50%">
+              <ion-col>
+                <ion-item lines="none" color="primaria"></ion-item>
+                <ion-item lines="none" color="warning"></ion-item>
+                <ion-item lines="none" color="success"></ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
         <ion-tabs>
             <ion-tab tab="home">
                 <h1>Página Principal</h1>
@@ -47,7 +57,7 @@
                     <ion-label>Configurações</ion-label>
                 <ion-icon name="settings"></ion-icon>
                 </ion-tab-button>
-                <ion-tab-button tab="voltar">
+                <ion-tab-button tab="voltar" color="primaria">
                     <ion-label>Voltar</ion-label>
                     <ion-icon name="arrow-back-circle"></ion-icon>
                 </ion-tab-button>
