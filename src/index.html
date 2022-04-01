@@ -1,76 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <!-- Framewor Ionic -->   
+    <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-      <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
-</head>
-<body> 
-<ion-app>
-        <!-- Menu Lateral -->   
-    <ion-menu side="start" content-id="main-content">
-    <ion-header>
-        <ion-toolbar>
-            <ion-title>Usuário</ion-title>
-        </ion-toolbar>
-    </ion-header>
-        <ion-content>
-            <ion-list>
-                <ion-item href="user.html"><ion-icon name="person-circle-outline"></ion-icon><p>Usuário</p></ion-item>
-                <ion-item><ion-icon name="star-outline"></ion-icon><p>Favoritos</p></ion-item>
-                <ion-item><ion-icon name="settings-outline"></ion-icon><p>Configurações</p></ion-item>
-            </ion-list>
-        </ion-conten> 
-    </ion-menu>
-        <div class="ion-page" id="main-content">
-        </div>
-        <ion-menu-controller></ion-menu-controller>
-        <ion-grid fixed="true">
-            <ion-row class="ion-align-items-center" 
-              style="height: 50%">
-              <ion-col>
-                <ion-item lines="none" color="primaria">
-                    <h1>Cor Primária</h1>
-                </ion-item>
-                <ion-item lines="none" color="secundaria ">
-                    <h1>Cor Secundária</h1>
-                </ion-item>      
-                <ion-item lines="none" color="terciaria">
-                    <h1>Cor Terciária</h1>
-                </ion-item>
-              </ion-col>
-            </ion-row>
-        </ion-grid>
-        <ion-tabs>
-            <ion-tab tab="home">
-                <h1>Página Principal</h1>
-            </ion-tab>
-            <ion-tab tab="settings">
-                <h1>Configurações</h1>
-            </ion-tab>
-            <ion-tab tab="voltar">
-                <h1>Voltar</h1>
-            </ion-tab>
-            <ion-tab-bar color="dark" slot="bottom" color="primaria" mode="md">
-                <ion-tab-button tab="home">
-                    <ion-label></ion-label>
-                <ion-icon color="terciaria" name="home"></ion-icon>
-                </ion-tab-button>
-                <ion-tab-button tab="settings">
-                    <ion-label></ion-label>
-                <ion-icon color="terciaria" name="settings"></ion-icon>
-                </ion-tab-button>
-                <ion-tab-button tab="voltar">
-                    <ion-label></ion-label>
-                    <ion-icon color="terciaria" name="arrow-back-circle"></ion-icon>
-                </ion-tab-button>
-            </ion-tab-bar>
-        </ion-tabs>   
-        <script src="script.js"></script>
-</ion-app>
-</body>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  </head>
+  <body>
+    <ion-app>
+		<ion-content>
+			<ion-grid style="height: 100%">
+				<ion-row style="height: 100%" class="ion-align-items-center">
+					<ion-col class="ion-text-center">
+						<ion-icon color="primaria" name="barbell" style="font-size: 128px;"></ion-icon>
+						<h2>Academia On</h2>
+						<ion-item color="dark" class="ion-margin-top">
+							<ion-label position="floating" color="primaria">Email</ion-label>
+							<ion-input type="email" placeholder="Seu Email"></ion-input>
+						</ion-item>
+						<ion-item color='dark' class="ion-margin-top">
+							<ion-label position="floating" color="primaria">Senha</ion-label>
+							<ion-input type="password" placeholder="Sua Senha" ></ion-input>
+						</ion-item>
+						<div color="dark" class="ion-margin-top">
+							<ion-button mode="md" color="primaria" 
+							expand="block" href="home.html">Entrar</ion-button>
+						</div>
+						<ion-item href="cadastro.html" class="ion-margin-top">
+							<ion-label style="text-align: center;" ><a style="color: #ffffff;">Criar Nova Conta</a></ion-label>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		</ion-content>
+	</ion-app>
+    <script src="script.js"></script>
+  </body>
 </html>

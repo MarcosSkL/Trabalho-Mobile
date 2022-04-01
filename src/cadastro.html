@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>replit</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+	</head>
+	<body>
+	<ion-app>
+			<ion-header>
+				<ion-toolbar>
+					<ion-title>Novo Usuário</ion-title>
+					<ion-buttons slot="start">
+						<ion-button href="index.html">
+							<ion-icon color="primaria" name="arrow-back"></ion-icon>
+						</ion-button>
+					</ion-buttons>
+					<ion-buttons slot="end">
+					<ion-button color="primaria" href="home.html">
+						Salvar
+					</ion-button>
+					</ion-buttons>
+				</ion-toolbar>
+			</ion-header>
+			<ion-content>
+				<ion-grid style="height: 100%">
+					<ion-row style="height: 100%" class="ion-align-items-center">
+						<ion-col class="ion-text-center">
+							<ion-icon color="primaria" name="barbell" style="font-size: 128px;"></ion-icon>
+							<h2>Academia On</h2>
+							<ion-item color='dark' class="ion-margin-top">
+								<ion-label color="primaria" position="floating">Nome</ion-label>
+								<ion-input type="text" placeholder="Seu Nome"></ion-input>
+							</ion-item>
+							<ion-item color='dark' class="ion-margin-top">
+								<ion-label color="primaria" position="floating">Email</ion-label>
+								<ion-input type="email" placeholder="Seu Email"></ion-input>
+							</ion-item>
+							<ion-item color='dark' class="ion-margin-top">
+								<ion-label color="primaria" position="floating">Telefone</ion-label>
+								<ion-input type="number" placeholder="Seu Telefone"></ion-input>
+							</ion-item>
+							<ion-item color='dark' class="ion-margin-top">
+								<ion-label color="primaria" position="floating">Senha</ion-label>
+								<ion-input type="password" placeholder="Sua Senha"></ion-input>
+							</ion-item>
+							<ion-item color='dark' class="ion-margin-top">
+								<ion-label color="primaria" position="floating">Confirme sua Senha</ion-label>
+								<ion-input type="password" placeholder="Confirme"></ion-input>
+							</ion-item>
+							</ion-item>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-content>
+		</ion-app>
+		<script src="script.js"></script>
+	</body>
+</html>
