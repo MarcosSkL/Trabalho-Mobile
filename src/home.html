@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 	  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -13,12 +12,10 @@
 	  <ion-app>
 			<ion-header>
 				<ion-toolbar>
-					<ion-buttons  slot="start">
-                        <ion-title  color="primaria" >Corte no App</ion-title>
-					</ion-buttons>
+					<ion-title style="text-align: center;" color="secundaria">Corte no App</ion-title>
 					<ion-buttons slot="end">
-						<ion-button href="index.html">
-							<ion-icon   color="primaria" name="exit-outline"  style="font-size: 32px;"></ion-icon>
+						<ion-button href="home.html" targer="_self">
+							<ion-icon name="refresh" color="secundaria" style="font-size: 32px;"></ion-icon>
 						</ion-button>
 					</ion-buttons>
 				</ion-toolbar>
@@ -26,11 +23,13 @@
 			<ion-content  fullscreen="true" >
 				<ion-card color="dark" class="ion-margin" >
 					<ion-card-header>
-						<ion-card-title>Evolve</ion-card-title>
-                        <ion-card-subtitle>ENDEREÇO - TELEFONE</ion-card-subtitle>
+						<ion-card-title>
+							<img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos-1024x640.jpg">
+						</ion-card-title>
+                        <ion-card-subtitle style="color: #DE5D0B;">*NOME BARBEARIA*</ion-card-subtitle>
 					</ion-card-header>
 					<ion-card-content>
-						<img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos-1024x640.jpg">
+						<p>*Descriçao Barbearia*</p>
 						<ul>
 							<li>Nome</li>
 							<li>Telefone</li>
@@ -38,18 +37,20 @@
 							<li>Estado</li>
 							</ul>							
 						<br>
-						<ion-button shape="round" color="primaria">
-							encontrar
+						<ion-button shape="round" color="secundaria">
+							preços
 						</ion-button>
 					</ion-card-content>
 				  </ion-card>
-				  <ion-card   color="dark" class="ion-margin" >
+				  <ion-card color="dark" class="ion-margin" >
 					<ion-card-header>
-						<ion-card-title>Evolve</ion-card-title>
-                        <ion-card-subtitle>ENDEREÇO - TELEFONE</ion-card-subtitle>
+						<ion-card-title>
+							<img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos-1024x640.jpg">
+						</ion-card-title>
+                        <ion-card-subtitle style="color: #DE5D0B;">*NOME BARBEARIA*</ion-card-subtitle>
 					</ion-card-header>
 					<ion-card-content>
-						<img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos-1024x640.jpg">
+						<p>*Descriçao Barbearia*</p>
 						<ul>
 							<li>Nome</li>
 							<li>Telefone</li>
@@ -57,22 +58,43 @@
 							<li>Estado</li>
 							</ul>							
 						<br>
-						<ion-button shape="round" color="primaria">
-							encontrar
+						<ion-button shape="round" color="secundaria">
+							preços
+						</ion-button>
+					</ion-card-content>
+				  </ion-card>
+				  <ion-card color="dark" class="ion-margin" >
+					<ion-card-header>
+						<ion-card-title>
+							<img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos-1024x640.jpg">
+						</ion-card-title>
+                        <ion-card-subtitle style="color: #DE5D0B;">*NOME BARBEARIA*</ion-card-subtitle>
+					</ion-card-header>
+					<ion-card-content>
+						<p>*Descriçao Barbearia*</p>
+						<ul>
+							<li>Nome</li>
+							<li>Telefone</li>
+							<li>Casa</li>
+							<li>Estado</li>
+							</ul>							
+						<br>
+						<ion-button shape="round" color="secundaria">
+							preços
 						</ion-button>
 					</ion-card-content>
 				  </ion-card>
 			</ion-content>
 			<ion-fab  horizontal="end" vertical="bottom">
-				<ion-fab-button  color="primaria">
+				<ion-fab-button  color="secundaria">
 					<ion-icon name="add" style="font-size: 32px;"></ion-icon>
 				</ion-fab-button>
 				<ion-fab-list side="top">
-					<ion-fab-button href="https://pt.wikipedia.org/wiki/Academia_desportiva" color="primaria">
-						<ion-icon name="globe"></ion-icon>
+					<ion-fab-button href="index.html" color="dark">
+						<ion-icon style="color: red;" name="exit"></ion-icon>
 					</ion-fab-button>
-					<ion-fab-button href="cadastro.html" color="primaria">
-						<ion-icon name="person-add"></ion-icon>
+					<ion-fab-button href="cadastro.html" color="dark">
+						<ion-icon style="color: white;" name="person-add"></ion-icon>
 					</ion-fab-button>
 					<ion-fab-button href="https://www.youtube.com/watch?v=DkwG8Ax-YnY" color="primaria">
 						<ion-icon name="logo-youtube"></ion-icon>
